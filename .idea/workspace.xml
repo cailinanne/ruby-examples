@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79d22c24-c217-4eca-913a-491a79afaeca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/billboards_2.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview_street/string_similarity.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/billboards.rb" afterPath="$PROJECT_DIR$/interview_street/billboards.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/billboards_2.rb" afterPath="$PROJECT_DIR$/interview_street/billboards_2.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/billboards.rb" afterPath="$PROJECT_DIR$/billboards.rb" />
     </list>
     <ignored path="ruby_examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,18 +29,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="billboards.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/billboards.rb">
+        <entry file="file://$PROJECT_DIR$/interview_street/billboards.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="32" selection-start="0" selection-end="1655" vertical-scroll-proportion="-17.181818">
+            <state line="39" column="0" selection-start="989" selection-end="1650" vertical-scroll-proportion="-0.3090909">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="billboards_2.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/billboards_2.rb">
+      <file leaf-file-name="billboards_2.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interview_street/billboards_2.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="26" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.44362292">
+            <state line="68" column="0" selection-start="1855" selection-end="1910" vertical-scroll-proportion="-15.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string_similarity.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interview_street/string_similarity.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="48" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.8019802">
               <folding />
             </state>
           </provider>
@@ -72,6 +82,7 @@
         <option value="$PROJECT_DIR$/triangle_q_2.rb" />
         <option value="$PROJECT_DIR$/billboards.rb" />
         <option value="$PROJECT_DIR$/billboards_2.rb" />
+        <option value="$PROJECT_DIR$/interview_street/string_similarity.rb" />
       </list>
     </option>
   </component>
@@ -120,6 +131,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interview_street" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
@@ -138,27 +163,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.billboards_2">
-    <configuration default="false" name="attr_accessor_q" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="ruby_examples" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/attr_accessor_q.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.string_similarity">
     <configuration default="false" name="triangle_q" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby_examples" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -213,7 +218,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/billboards.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/interview_street/billboards.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -233,7 +238,27 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/billboards_2.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/interview_street/billboards_2.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="string_similarity" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby_examples" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/interview_street" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/interview_street/string_similarity.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -344,11 +369,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.attr_accessor_q" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.triangle_q" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.triangle_q_2" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.billboards" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.billboards_2" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.triangle_q" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.triangle_q_2" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.billboards" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.billboards_2" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.string_similarity" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -387,9 +412,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15183616" sideWeight="0.78835976" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15183616" sideWeight="0.7063492" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21164021" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2936508" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -425,7 +450,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="With test case." />
+    <option name="LAST_COMMIT_MESSAGE" value="Billboard attempts." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -439,6 +464,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="With test case." />
+    <MESSAGE value="Billboard attempts." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -503,16 +529,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/billboards.rb">
+    <entry file="file://$PROJECT_DIR$/interview_street/billboards.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="32" selection-start="0" selection-end="1655" vertical-scroll-proportion="-17.181818">
+        <state line="39" column="0" selection-start="989" selection-end="1650" vertical-scroll-proportion="-0.3090909">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/billboards_2.rb">
+    <entry file="file://$PROJECT_DIR$/interview_street/billboards_2.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="26" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.44362292">
+        <state line="68" column="0" selection-start="1855" selection-end="1910" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview_street/string_similarity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="48" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.8019802">
           <folding />
         </state>
       </provider>
