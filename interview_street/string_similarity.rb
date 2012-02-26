@@ -18,6 +18,7 @@ class TestStringSimilarity < Test::Unit::TestCase
     def test_full
         return unless DEBUG
         assert_equal [11,3], StringSimilarity.run_examples(["ababaa","aa"])
+        assert_equal [3,3], StringSimilarity.run_examples(["abc","def"])
     end
 
 end
@@ -42,9 +43,9 @@ class StringSimilarity
 
     def self.calculate_similarity(example)
         log "Calculating similarity for [#{example}]"
-        total = 0
-        (0..example.size-1).each do |i|
-            total = total + self.similarity(example, i)
+        total = example.size
+        (1..example.size-1).each do |offset|
+            total = total + self.similarity(example, offset)
         end
         total
     end
