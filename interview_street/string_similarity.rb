@@ -6,13 +6,13 @@ DEBUG = false
 class TestStringSimilarity < Test::Unit::TestCase
     def test_similarity
         return unless DEBUG
-        assert_equal 1, StringSimilarity.similarity("a","a")
-        assert_equal 6, StringSimilarity.similarity("ababaa","ababaa")
-        assert_equal 0, StringSimilarity.similarity("ababaa","babaa")
-        assert_equal 3, StringSimilarity.similarity("ababaa","abaa")
-        assert_equal 0, StringSimilarity.similarity("ababaa","baa")
-        assert_equal 1, StringSimilarity.similarity("ababaa","aa")
-        assert_equal 1, StringSimilarity.similarity("ababaa","a")
+        assert_equal 1, StringSimilarity.similarity("a",0)
+        assert_equal 6, StringSimilarity.similarity("ababaa",0)
+        assert_equal 0, StringSimilarity.similarity("ababaa",1)
+        assert_equal 3, StringSimilarity.similarity("ababaa",2)
+        assert_equal 0, StringSimilarity.similarity("ababaa",3)
+        assert_equal 1, StringSimilarity.similarity("ababaa",4)
+        assert_equal 1, StringSimilarity.similarity("ababaa",5)
     end
 
     def test_full
@@ -21,7 +21,6 @@ class TestStringSimilarity < Test::Unit::TestCase
     end
 
 end
-
 
 
 class StringSimilarity
@@ -45,14 +44,14 @@ class StringSimilarity
         log "Calculating similarity for [#{example}]"
         total = 0
         (0..example.size-1).each do |i|
-            total = total + self.similarity(example, example[i..example.size-1])
+            total = total + self.similarity(example, i)
         end
         total
     end
 
-    def self.similarity(s1, s2)
+    def self.similarity(s1, offset)
         count = 0
-        while count < s2.length && s1[count] == s2[count]
+        while count < s1.length && s1[count] == s1[count + offset]
             count = count + 1
         end
         count
