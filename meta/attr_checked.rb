@@ -1,28 +1,35 @@
 require 'test/unit'
 
-class Dog
+module AttrChecked
+    def self.included(base)
+        base.extend ClassMethods
+    end
 
-    def self.attr_checked(method_name, &validation)
-        define_method(method_name) do
-            instance_variable_get("@#{method_name}")
-        end
-
-        define_method("#{method_name}=") do |val|
-            raise ArgumentError if val.nil?
-
-            unless validation.call(val)
-                raise ArgumentError
+    module ClassMethods
+        def attr_checked(method_name, &validation)
+            define_method(method_name) do
+                instance_variable_get("@#{method_name}")
             end
 
-            instance_variable_set("@#{method_name}", val)
+            define_method("#{method_name}=") do |val|
+                raise ArgumentError if val.nil?
+
+                unless validation.call(val)
+                    raise ArgumentError
+                end
+
+                instance_variable_set("@#{method_name}", val)
+            end
         end
     end
+end
+
+class Dog
+    include AttrChecked
 
     attr_checked :num_legs do |v|
         v <= 4
     end
-
-
 end
 
 class TestDog < Test::Unit::TestCase
