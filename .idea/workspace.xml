@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79d22c24-c217-4eca-913a-491a79afaeca" name="Default" comment="Meta programming examples.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/string_reverse.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="79d22c24-c217-4eca-913a-491a79afaeca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/fibonacci_recursive.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functional/binary_tree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functional/map_reduce.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functional/queue.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functional/stack.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interview_street/string_similarity.rb" afterPath="$PROJECT_DIR$/interview_street/string_similarity.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meta/attr_accessor_q.rb" afterPath="$PROJECT_DIR$/meta/attr_accessor_q.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meta/module_with_class_methods.rb" afterPath="$PROJECT_DIR$/meta/module_with_class_methods.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meta/resource_management.rb" afterPath="$PROJECT_DIR$/meta/resource_management.rb" />
     </list>
     <ignored path="ruby_examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +29,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="module_with_class_methods.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta/module_with_class_methods.rb">
+      <file leaf-file-name="resource_management.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meta/resource_management.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="40" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+            <state line="31" column="7" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fibonacci_recursive.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/fibonacci_recursive.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="27" selection-start="562" selection-end="562" vertical-scroll-proportion="0.8426966">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map_reduce.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functional/map_reduce.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="67" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functional/queue.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="30" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stack.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functional/stack.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="44" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binary_tree.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functional/binary_tree.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="31" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -42,34 +86,16 @@
       <file leaf-file-name="procs_blocks_lambdas.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meta/procs_blocks_lambdas.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
+            <state line="4" column="23" selection-start="176" selection-end="192" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resource_management.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/meta/resource_management.rb">
+      <file leaf-file-name="string_reverse.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/string_reverse.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="7" selection-start="403" selection-end="403" vertical-scroll-proportion="0.6586402">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="method_deprecation.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta/method_deprecation.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="64" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attr_checked.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meta/attr_checked.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="21" selection-end="108" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="896" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,12 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/postfix_q.rb" />
-        <option value="$PROJECT_DIR$/triangle_q_2.rb" />
-        <option value="$PROJECT_DIR$/billboards.rb" />
-        <option value="$PROJECT_DIR$/billboards_2.rb" />
-        <option value="$PROJECT_DIR$/meta/blocks_and_scope.rb" />
-        <option value="$PROJECT_DIR$/meta/accessing_private_methods.rb" />
         <option value="$PROJECT_DIR$/meta/procs_blocks_lambdas.rb" />
         <option value="$PROJECT_DIR$/meta/method_deprecation.rb" />
         <option value="$PROJECT_DIR$/meta/alias_method.rb" />
@@ -122,6 +142,12 @@
         <option value="$PROJECT_DIR$/meta/attr_accessor_q.rb" />
         <option value="$PROJECT_DIR$/meta/module_with_class_methods.rb" />
         <option value="$PROJECT_DIR$/meta/resource_management.rb" />
+        <option value="$PROJECT_DIR$/algorithm/fibonacci.rb" />
+        <option value="$PROJECT_DIR$/functional/inject.rb" />
+        <option value="$PROJECT_DIR$/functional/queue.rb" />
+        <option value="$PROJECT_DIR$/functional/stack.rb" />
+        <option value="$PROJECT_DIR$/functional/binary_tree.rb" />
+        <option value="$PROJECT_DIR$/algorithm/fibonacci_recursive.rb" />
       </list>
     </option>
   </component>
@@ -208,20 +234,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interview_street" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby_examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby_examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -244,8 +256,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.resource_management">
-    <configuration default="false" name="string_reverse" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.fibonacci_recursive">
+    <configuration default="false" name="fibonacci_recursive" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby_examples" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/algorithm" />
@@ -259,16 +271,16 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/algorithm/string_reverse.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/algorithm/fibonacci_recursive.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="attr_accessor_q" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="map_reduce" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby_examples" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/meta" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/functional" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -279,16 +291,18 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/meta/attr_accessor_q.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/functional/map_reduce.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyCover" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyCover" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="module_with_class_methods" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="queue" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby_examples" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/meta" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/functional" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -299,16 +313,16 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/meta/module_with_class_methods.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/functional/queue.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="blocks_and_scope" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="stack" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby_examples" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/meta" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/functional" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -319,16 +333,16 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/meta/blocks_and_scope.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/functional/stack.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="resource_management" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="binary_tree" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby_examples" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/meta" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/functional" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -339,7 +353,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/meta/resource_management.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/functional/binary_tree.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -457,11 +471,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.string_reverse" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.attr_accessor_q" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.module_with_class_methods" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.blocks_and_scope" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.resource_management" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.fibonacci_recursive" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.map_reduce" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.queue" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.stack" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.binary_tree" />
     </list>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
@@ -514,27 +528,32 @@
       <created>1325716755121</created>
       <updated>1325716755121</updated>
     </task>
+    <task id="LOCAL-00001" summary="Meta programming examples.">
+      <created>1331648557855</created>
+      <updated>1331648557855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30066225" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19899425" sideWeight="0.7854305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19899425" sideWeight="0.77218544" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21456954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22781457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -546,8 +565,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -576,7 +595,7 @@
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find substring in a string example.  Implement Rubin-Karp." />
+    <option name="LAST_COMMIT_MESSAGE" value="Meta programming examples." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -595,43 +614,13 @@
     <MESSAGE value="5/10, last 5 too slow." />
     <MESSAGE value="Minor optimization." />
     <MESSAGE value="Organization." />
-    <MESSAGE value="Meta programming examples." />
     <MESSAGE value="Find substring in a string example.  Implement Rubin-Karp." />
+    <MESSAGE value="Meta programming examples." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/triangle_q_2.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="24" selection-start="1513" selection-end="1513" vertical-scroll-proportion="1.3387978" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_street/billboards.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="27" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_street/string_similarity.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="61" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/substr.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1219" selection-end="1540" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/string_reverse.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="447" selection-end="447" vertical-scroll-proportion="0.73253495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meta/alias_method.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meta/blocks_and_scope.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="16" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" />
@@ -650,11 +639,6 @@
     <entry file="file://$PROJECT_DIR$/meta/module_with_class_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="40" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meta/procs_blocks_lambdas.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meta/method_deprecation.rb">
@@ -679,7 +663,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meta/resource_management.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="7" selection-start="403" selection-end="403" vertical-scroll-proportion="0.6586402">
+        <state line="31" column="7" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/string_reverse.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="896" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional/stack.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta/procs_blocks_lambdas.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="176" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional/binary_tree.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional/map_reduce.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="67" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional/queue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/fibonacci_recursive.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="27" selection-start="562" selection-end="562" vertical-scroll-proportion="0.8426966">
           <folding />
         </state>
       </provider>
