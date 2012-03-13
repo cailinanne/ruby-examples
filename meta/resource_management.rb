@@ -13,7 +13,9 @@ class Resource
     end
 end
 
+
 module Kernel
+
     def using(resource)
         begin
             yield
@@ -26,5 +28,5 @@ end
 conn = Resource.new
 
 using(conn) do
-    conn.do_something
+    puts "Doing Something"
 end

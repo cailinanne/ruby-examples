@@ -11,25 +11,28 @@
 # puts a.name
 
 module AccessMe
+  def self.included(base)
+    base.extend ClassMethods
+  end
 
+  module ClassMethods
+    def my_attr_accessor(m)
+      define_method(m) do
+        instance_variable_get("@#{m}")
+      end
 
-    def attr_accessor(name)
-        define_method(m) do
-            instance_variable_get("@#{m}")
-        end
-
-        define_method("#{m}=") do |val|
-            instance_variable_set("@#{m}", val)
-        end
+      define_method("#{m}=") do |val|
+        instance_variable_set("@#{m}", val)
+      end
     end
+  end
 end
 
-class Example
-    include AccessMe
-    attr_accessor :cat
+class Cat
+  include AccessMe
+  my_attr_accessor :name
 end
 
-
-e = Example.new
-e.cat = "miaow"
-p e.cat
+cat = Cat.new
+cat.name = "Fredrick"
+puts cat.name

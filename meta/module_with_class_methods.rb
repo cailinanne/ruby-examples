@@ -1,26 +1,23 @@
 module Math
 
-    def self.included(cls)
-        cls.extend ClassMethods
-    end
+  def self.included(base)
+    base.extend ClassMethods
+  end
 
-    def squared
-        self * self
+  module ClassMethods
+    def pi
+      3.14
     end
+  end
 
-    module ClassMethods
-        def pi
-            "3.14"
-        end
-    end
+  def squared
+    self * self
+  end
 end
 
 class Fixnum
-    include Math
+  include Math
 end
 
-puts 2.squared
-# 4
-
 puts Fixnum.pi
-# 3.14
+puts 2.squared
